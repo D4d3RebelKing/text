@@ -9,6 +9,7 @@
 
 function setup() {
   createCanvas3D(widowWidth, windowHeight);
+  getOrbit()autoRotate=true;
 
   environment(SUNSET);
   background3D("white"); 
